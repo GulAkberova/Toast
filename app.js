@@ -80,5 +80,5 @@ console.log(success.checked)
 
  clear.addEventListener('click',()=>{
     console.log(toasts)
-    toasts.remove()
+    toasts.innerHTML=' '
 })
